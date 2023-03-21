@@ -1,16 +1,9 @@
-import processing.serial.*;
-
-Serial port;
-
 int Input[] = {0,0,0,0,0,0,0,0};
 int Output[] = {0,0,0,0,0,0,0,0};
 
 void setup() 
 { 
   size(1600,900); 
-  smooth(); 
-  String portName ;
-  println(Serial.list());
 }
 void draw() 
 { 
